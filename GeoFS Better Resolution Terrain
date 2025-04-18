@@ -83,43 +83,6 @@
         window.geofs.mapXYZ = "https://data.geo-fs.com/osm/{z}/{x}/{y}.png";
     });
 
-    //document.querySelectorAll("body > <div class="geofs-adbanner geofs-adsense-container">
-
-            <style>
-                .geofs-adbanner ins {
-                    width: 302px;
-                    max-width: 302px;
-                    min-width: 162px;
-                    height: 100%;
-                }
-
-                @media screen and (max-width: 1600px) {
-                    .geofs-adbanner ins {
-                        width: 162px;
-                    }
-                }
-
-                @media screen and (orientation: portrait) {
-                    .geofs-adbanner ins {
-                        width: 100% !important;
-                        max-width: 100% !important;
-                        min-height: 162px;
-                        height: 162px;
-                    }
-                }
-
-            </style>
-
-            <div class="geofs-refreshTarget">
-
-                <div class="geofs-adsBlockedMessage" style="text-align: center;">
-    
-<a href="/pages/hd.php" target="_top" style="display: inline-block; text-align: center; width: 100%; height: 100%;">
-<img style="max-width: 160px; max-height: 100%;" src="/images/ba/hd_skyscraper.jpg"></a></div>
-                <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <ins class="adsbygoogle" style="display:block;" data-ad-client="ca-pub-1808592532341984" data-ad-slot="5302287636" data-adsbygoogle-status="done"><iframe id="aswift_0" style="height: 1px !important; max-height: 1px !important; max-width: 1px !important; width: 1px !important;"></iframe><iframe id="google_ads_iframe_0" style="height: 1px !important; max-height: 1px !important; max-width: 1px !important; width: 1px !important;"></iframe></ins>
-            </div>
-        </div>")[0].remove();
 })();
 
 
